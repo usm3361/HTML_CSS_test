@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background: #fee9d8;
+  background: linear-gradient(
+    0deg,
+    rgba(254, 233, 216, 1) 0%,
+    rgba(239, 208, 250, 1) 100%
+  );
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+.header {
+  /* position: fixed; */
+  width: 100vw;
+  height: 7vh;
+  padding-top: 1em;
+}
+.logo {
+  width: 10vw;
+  margin: 0;
+  display: inline-block;
+}
+.link {
+  margin-left: 1rem;
+  color: #000000;
+  text-decoration: none;
+}
+.png {
+  width: 10%;
+}
+.svg {
+  /* z-index: 7; */
+  margin-top: 5px;
+  margin-left: 4px;
+  width: 8%;
+}
+.nav {
+  width: 70vw;
+  display: inline-block;
+  margin: 0;
+  padding: 0 2rem;
+  text-align: center;
+}
+.links {
+  align-items: center;
+  top: 30px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 0.5em;
+  margin-left: 40px;
+  margin-right: 40px;
+  transition: background-color 0.3s ease;
+}
+.btn {
+  width: 15vw;
+  display: inline-block;
+}
+.login {
+  background-color: #000000;
+  color: white;
+  border-radius: 25px;
+  height: 30px;
+}
+.signin {
+  margin-left: 3px;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  border: 0.5px solid rgb(128, 128, 128);
+  border-radius: 25px;
+  height: 30px;
+}
+.help {
+  background-color: #ffffff;
+  margin-left: 8px;
+  border: 0.5px solid #000000;
+  font-weight: 500;
+  border-radius: 100%;
+}
+.main-section {
+  padding: 2rem;
+  margin-top: 2rem;
+  display: inline-block;
+  align-items: center;
+  height: 80vh;
+  width: 50vw;
+}
+.sec1 {
+  width: 25vw;
+  display: inline-block;
+}
+.image {
+  border-radius: 15px;
+  margin: 4px;
+  max-width: 80px;
+}
+.ul {
+  margin: 0rem;
+  padding: 0rem;
+}
+button.left{
+  float: right;
+  width: 5px;
+}
+img.left{
+  width: 20px;
+}
+button.right{
+  float: right;
+  width: 5px;
+}
+img.right{
+  width: 20px;
+}

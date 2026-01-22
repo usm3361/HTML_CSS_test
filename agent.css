@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+.nav {
+  display: inline-block;
+  margin: 0;
+  padding: 0 2rem;
+  text-align: center;
+}
+.navbar {
+  padding: 1em;
+  height: 7vh;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+.logo {
+  width: 2.5vw;
+  color: #000000;
+  margin: 0;
+  padding: 0.3rem;
+  text-decoration: none;
+}
+.png {
+  width: 1%;
+}
+.svg {
+  top: 22px;
+  position: absolute;
+  width: 0.8%;
+}
+.links {
+  top: 30px;
+  width: 90vw;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 0.5em;
+  margin-left: 40px;
+  margin-right: 40px;
+  transition: background-color 0.3s ease;
+}
+.btn {
+  display: inline-block;
+}
+.login {
+  background-color: #000000;
+  color: white;
+  border-radius: 25px;
+  height: 30px;
+}
+.signin {
+  color: rgb(0, 0, 0);
+  background-color: white;
+  border: 0.5px solid rgb(128, 128, 128);
+  border-radius: 25px;
+  height: 30px;
+}
